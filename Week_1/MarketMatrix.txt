@@ -1,4 +1,4 @@
-%%MatrixMaket matrix coordinate real genera
+%%MatrixMaket matrix coordinate real general
 %
 % ATHENS course matrix
 %
