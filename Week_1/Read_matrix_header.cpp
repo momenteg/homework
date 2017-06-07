@@ -3,6 +3,11 @@
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
+#include <stdexcept>
+
+inline void error(const std::string& s){
+	throw std::runtime_error(s);
+}
 
 void print_row_with_header(std::string filename){
 	std::ifstream infile;
@@ -18,7 +23,7 @@ void print_row_with_header(std::string filename){
 		}
 	}else{
 		infile.close();
-		throw "Error while opening the file";
+		error("Error while opening the file");
 	}
 }
 
