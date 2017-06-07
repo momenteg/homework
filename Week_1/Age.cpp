@@ -8,8 +8,7 @@
 #include <string>
 
 
-inline void error(const std::string& s)
-{
+inline void error(const std::string& s){
     throw std::runtime_error(s);
 }
 
