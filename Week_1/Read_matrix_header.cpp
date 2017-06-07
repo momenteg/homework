@@ -17,12 +17,10 @@ void print_row_with_header(std::string filename){
 		while (std::getline( infile, line )){
 			if(line.find_first_of("%")==-1){
 				std::cout << line << std::endl;
-				infile.close();
 				return;
 			}
 		}
 	}else{
-		infile.close();
 		error("Error while opening the file");
 	}
 }

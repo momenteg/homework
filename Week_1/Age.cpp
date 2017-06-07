@@ -25,8 +25,12 @@ void ask_for_the_age(int &age){
 void print_to_file(int age){
 	std::ofstream output;
 	output.open("Age_output.txt");
-	output << age << std::endl;
-	output.close();	
+	if (output.is_open()){
+		output << age << std::endl;
+	}else{
+		error("Error while opening the file");
+	}
+	
 }
 
 int main(){
