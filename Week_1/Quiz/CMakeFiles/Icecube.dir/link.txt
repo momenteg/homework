@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Icecube.dir/Quiz.cpp.o  -o bin/Icecube -rdynamic -lboost_program_options 

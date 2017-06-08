@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/fs02/ma15/homes/gmoment/Documents/Git/homework/Week_1/Quiz/Quiz.cpp
+Quiz.h
+/fs02/ma15/homes/gmoment/Documents/Git/homework/Week_1/Quiz/Quiz.h
+
+/fs02/ma15/homes/gmoment/Documents/Git/homework/Week_1/Quiz/Quiz.h
+stdio.h
+-
+fstream
+-
+boost/program_options.hpp
+-
+stdexcept
+-
+iostream
+-
+
