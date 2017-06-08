@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/Quiz.dir/Quiz.cpp.o  -o bin/Quiz -rdynamic -lboost_program_options 
